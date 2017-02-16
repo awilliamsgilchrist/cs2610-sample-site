@@ -3,6 +3,15 @@
 	background-color:#D3D3D3;
 	text-align:center;
 	font-family:monospace;
+	border: 2px dotted;
+}
+
+.firstRow:hover
+{
+	background-color:#FFB6C1;
+	text-align:center;
+	font-family:monospace;
+	border: 2px;
 }
 
 .secondRow
@@ -10,9 +19,47 @@
 	background-color:#FFB6C1;
 	text-align:center;
 	font-family:monospace;
+	border: 2px;
+}
+
+.secondRow:hover
+{
+	background-color:#D3D3D3;
+	text-align:center;
+	font-family:monospace;
+	border: 2px dotted;
+}
+
+.backdrop
+{
+	background-image: url(http://www.anderson.k12.ky.us/Downloads/bluebackground.jpg);
+	display: block;
+	
+}
+
+.textstyle
+{
+	vertical-align: middle;
+	font-size: 5px;
+	font-weight: bold;
+}
+
+.textlink:visited
+{
+	font-family: sans-serif;
 }
 
 span
 {
 	background-color:#F00000;
+}
+
+p:first-of-type
+{
+	font-family: serif;
+}
+
+th:nth-child(odd)
+{
+	font-family: sans-serif;
 }
